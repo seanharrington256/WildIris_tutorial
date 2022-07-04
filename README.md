@@ -12,7 +12,7 @@
 * [Navigating WildIris](https://github.com/seanharrington256/WildIris_tutorial#Navigating-WildIris)
 * [Moving, copying, and removing (deleting) files](https://github.com/seanharrington256/WildIris_tutorial#Moving,-copying,-and-removing-files)
 * [Editing files](https://github.com/seanharrington256/WildIris_tutorial#Editing-files)
-* [Globbing and some useful shortcuts]((https://github.com/seanharrington256/WildIris_tutorial#Globbing-and-some-useful-shortcuts)
+* [Globbing and some useful shortcuts](https://github.com/seanharrington256/WildIris_tutorial#Globbing-and-some-useful-shortcuts)
 * [Transferring files
 ](https://github.com/seanharrington256/WildIris_tutorial#Transferring-files-to-and-from-WildIris)
 * [Searching through a file](https://github.com/seanharrington256/WildIris_tutorial#Searching-through-a-file)
