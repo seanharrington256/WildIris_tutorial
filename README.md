@@ -87,7 +87,7 @@ One of the most common commands you'll use is
 
 This command lists files and directories. If you run it with no options or arguments, it will do this for the directory you are currently in. 
 
-**Commands are case sensitive!** If you type `LS` it will not be recognized as `ls`. Spaces between options/arguments are also important to delineate when a new option or argument starts. In most cases, the number of spaces is not critical, but it can be for some applications.
+* **Commands are case sensitive!** If you type `LS` it will not be recognized as `ls`. Spaces between options/arguments are also important to delineate when a new option or argument starts. In most cases, the number of spaces is not critical, but it can be for some applications.
 
 When you first log in, you'll be in your home directory, you can always confirm your current directory with the
 
@@ -103,7 +103,7 @@ touch test.txt
 
 * Side note: when working in Bash, file extensions are often only used for human convenience and programs will typically not automatically add a file extension. I added `.txt` here so that I know this is a text file (albeit an empty one). We could leave the extension off or use any arbitrary extension and most programs that read text files will still read this file just fine.
 
-Here we have to supply an argument to `touch` to tell it what to name the file. If we run `ls`, we should now see what file listed. I personally prefer to always run `ls` with some additional options as:
+Here we have to supply an argument to `touch` to tell it what to name the file. If we run `ls`, we should now see that file listed. I personally prefer to always run `ls` with some additional options as:
 
 `ls -ltrh`
 
@@ -391,7 +391,7 @@ Will run 17 array jobs. In each job, there will be a bash variable called `$SLUR
 #SBATCH --mail-user=USERNAME@gmail.com
 #SBATCH -e err_testarray_%A_%a.err
 #SBATCH -o std_testarray_%A_%a.out
-#SBATCH --array=1-10
+#SBATCH --array=1-9
 
 cd ~
 mkdir test_array
